@@ -30,9 +30,17 @@ namespace _024WaitingForSetOfTasksToComplete
         {
             var httpClient = new HttpClient();
             var download = urls.Select(url => httpClient.GetStringAsync(url));
-            string[] htmlPages = await Task.WhenAll(download);
 
-            return string.Concat(htmlPages);
+            try
+            {
+                string[] htmlPages = await Task.WhenAll(download);
+
+                return string.Concat(htmlPages);
+            }
+            catch (Exception)
+            {
+            }
+            return string.Empty;
         }
     }
 }
