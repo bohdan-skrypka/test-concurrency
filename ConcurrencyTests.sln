@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_021_PausingForPeriodTime", "02_AsyncBasic\_021_PausingForPeriodTime.csproj", "{C3435EA5-FADD-40D9-85FC-1745EA69FB0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_021_PausingForPeriodTime", "02_AsyncBasic\_021_PausingForPeriodTime.csproj", "{C3435EA5-FADD-40D9-85FC-1745EA69FB0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_AsyncBasic", "02_AsyncBasic", "{39D59096-0FB6-4AEF-8446-FA70B828C73D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_022_ReturningCompletedTasks", "ReturningCompletedTasks\_022_ReturningCompletedTasks.csproj", "{67083CB7-034C-4238-8BA6-0D6A42078BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_022_ReturningCompletedTasks", "ReturningCompletedTasks\_022_ReturningCompletedTasks.csproj", "{67083CB7-034C-4238-8BA6-0D6A42078BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_023_ReportingProgress", "_23_ReportingProgress\_023_ReportingProgress.csproj", "{207C5A52-7AD0-4129-A203-7FC4E3DF4599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_023_ReportingProgress", "_23_ReportingProgress\_023_ReportingProgress.csproj", "{207C5A52-7AD0-4129-A203-7FC4E3DF4599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_024WaitingForSetOfTasksToComplete", "WaitingForSetOfTasksToComplete\_024WaitingForSetOfTasksToComplete.csproj", "{FEF170A5-A114-437C-827E-047E8F136759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_024WaitingForSetOfTasksToComplete", "WaitingForSetOfTasksToComplete\_024WaitingForSetOfTasksToComplete.csproj", "{FEF170A5-A114-437C-827E-047E8F136759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_025_WhenAnyToComplete", "_025_WhenAnyToComplete\_025_WhenAnyToComplete.csproj", "{4A3BE45E-BAAC-4C93-B9BE-F77913EA1C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_025_WhenAnyToComplete", "_025_WhenAnyToComplete\_025_WhenAnyToComplete.csproj", "{4A3BE45E-BAAC-4C93-B9BE-F77913EA1C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_26_ProcessingTasksAsTheyComplete", "_26_ProcessingTasksAsTheyComplete\_26_ProcessingTasksAsTheyComplete.csproj", "{D9868D92-7894-4769-A8A1-C61D9E3BABEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_026_ProcessingTasksAsTheyComplete", "_26_ProcessingTasksAsTheyComplete\_026_ProcessingTasksAsTheyComplete.csproj", "{D9868D92-7894-4769-A8A1-C61D9E3BABEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_027_AvoidingContextForContinuations", "AvoidingContextForContinuations\_027_AvoidingContextForContinuations.csproj", "{7ABC8DDF-6115-43DE-B89B-6974FD3D8E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_28_HandlingExceptions", "_28_HandlingExceptions\_28_HandlingExceptions.csproj", "{FD7D41A8-510B-4E55-AD8A-6E6AED213401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{D9868D92-7894-4769-A8A1-C61D9E3BABEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9868D92-7894-4769-A8A1-C61D9E3BABEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9868D92-7894-4769-A8A1-C61D9E3BABEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABC8DDF-6115-43DE-B89B-6974FD3D8E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABC8DDF-6115-43DE-B89B-6974FD3D8E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABC8DDF-6115-43DE-B89B-6974FD3D8E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABC8DDF-6115-43DE-B89B-6974FD3D8E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7D41A8-510B-4E55-AD8A-6E6AED213401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7D41A8-510B-4E55-AD8A-6E6AED213401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7D41A8-510B-4E55-AD8A-6E6AED213401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7D41A8-510B-4E55-AD8A-6E6AED213401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +70,8 @@ Global
 		{FEF170A5-A114-437C-827E-047E8F136759} = {39D59096-0FB6-4AEF-8446-FA70B828C73D}
 		{4A3BE45E-BAAC-4C93-B9BE-F77913EA1C0F} = {39D59096-0FB6-4AEF-8446-FA70B828C73D}
 		{D9868D92-7894-4769-A8A1-C61D9E3BABEA} = {39D59096-0FB6-4AEF-8446-FA70B828C73D}
+		{7ABC8DDF-6115-43DE-B89B-6974FD3D8E54} = {39D59096-0FB6-4AEF-8446-FA70B828C73D}
+		{FD7D41A8-510B-4E55-AD8A-6E6AED213401} = {39D59096-0FB6-4AEF-8446-FA70B828C73D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {942912E1-13E1-495F-A1BE-04F69E7EE119}
