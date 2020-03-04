@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_026_ProcessingTasksAsTheyC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_027_AvoidingContextForContinuations", "AvoidingContextForContinuations\_027_AvoidingContextForContinuations.csproj", "{7ABC8DDF-6115-43DE-B89B-6974FD3D8E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_28_HandlingExceptions", "_28_HandlingExceptions\_28_HandlingExceptions.csproj", "{FD7D41A8-510B-4E55-AD8A-6E6AED213401}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_028_HandlingExceptions", "_28_HandlingExceptions\_028_HandlingExceptions.csproj", "{FD7D41A8-510B-4E55-AD8A-6E6AED213401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
