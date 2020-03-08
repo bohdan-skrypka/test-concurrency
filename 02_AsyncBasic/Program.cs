@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace _02_AsyncBasic
 {
@@ -6,7 +7,19 @@ namespace _02_AsyncBasic
     {
         private const string Url = "http://google.com";
 
-        static async void Main(string[] args)
+        public static void Main()
+        {
+            try
+            {
+                MainAsync(new string[] { }).GetAwaiter().GetResult();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        static async Task MainAsync(string[] args)
         {
             await PausingForPeriodTime.DownloadStringWithRetries(Url);
             await PausingForPeriodTime.DownloadStringWithTimeout(Url);
